@@ -1,0 +1,17 @@
+<!--
+ - Created by new on 15.12.2017.
+ -->
+
+<aura:component controller="AlertController" description="alertConsole" implements="flexipage:availableForAllPageTypes" access="global">
+    <ltng:require scripts="{!$Resource.cometd}" afterScriptsLoaded="{!c.onCometdLoaded}"/>
+    <aura:handler name="init" value="{!this}" action="{!c.onInit}"/>
+    <aura:attribute name="messages" type="Object[]"/>
+    <aura:attribute name="cometd" type="Object"/>
+    <aura:attribute name="sessionId" type="String"/>
+    <aura:attribute name="cometdSubscriptions" type="Object[]"/>
+
+    <aura:iteration items="{!v.messages}" var="mes">
+        <c:messageComponent aura:id="{!mes.caseId}" message="{!mes}"/>
+    </aura:iteration>
+
+</aura:component>

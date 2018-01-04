@@ -1,0 +1,7 @@
+<!--
+ - Created by new on 11.10.2017.
+ -->
+
+<aura:component description="myEverythingComponent">
+	I'll have one with everything
+</aura:component>

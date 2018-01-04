@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Accessories_Fieldz__mdt-en_US</members>
+        <members>Accessories_to_SFA_Field_Mappings__mdt-en_US</members>
+        <members>Agency_Service_Providers__mdt-en_US</members>
+        <members>Booking__c-en_US</members>
+        <members>Car__c-en_US</members>
+        <members>Cloud_News__e-en_US</members>
+        <members>Energy_Audit__c-en_US</members>
+        <members>MagazineSubscriber__c-en_US</members>
+        <members>Magazine__c-en_US</members>
+        <members>Notification__e-en_US</members>
+        <members>Order_Event__e-en_US</members>
+        <members>PriceBook__c-en_US</members>
+        <members>Subscriber__c-en_US</members>
+        <members>Threat_Tier__mdt-en_US</members>
+        <members>VAT_Data__mdt-en_US</members>
+        <members>Vacation_Package__c-en_US</members>
+        <members>alertEvent__e-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Profile</name>
+    </types>
+    <version>40.0</version>
+</Package>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>AccountDetail</members>
+    <members>AccountEdit</members>
+    <members>AccountList</members>
+    <members>AccountPageTest</members>
+    <members>AccountSummary</members>
+    <members>ContactForm</members>
+    <members>ContactList</members>
+    <members>ContactView</members>
+    <members>ContactsListController</members>
+    <members>CreateContact</members>
+    <members>DisplayImage</members>
+    <members>DisplayUserInfo</members>
+    <members>HelloWorld</members>
+    <members>NewCaseList</members>
+    <members>OppView</members>
+    <members>ShowImage</members>
+    <members>TestPage</members>
+    <members>Trailhead_SLDS_Contacts</members>
+    <members>UserStatus</members>
+    <members>pages</members>
+    <name>ApexPage</name>
+  </types>
+  <types>
+    <members>*</members>
+    <name>Profile</name>
+  </types>
+  <version>40.0</version>
+</Package>

@@ -1,0 +1,9 @@
+<project xmlns:sf='antlib:com.salesforce' default='bulkRetrieveFolders'>
+  <import file='../ant-includes/setup-target.xml' />
+  <target name='bulkRetrieveFolders' depends='-setUpMetadataDir'>
+    <parallel threadCount='4'>
+      <sf:retrieve unpackaged='build/folders-package.xml' retrieveTarget='${build.metadata.dir}' username='${sf.username}' password='${sf.password}' serverurl='${sf.serverurl}' pollWaitMillis='${sf.pollWaitMillis}' maxPoll='${sf.maxPoll}' />
+      <sf:bulkRetrieve metadataType='Report' containingFolder='SharedApp' retrieveTarget='${build.metadata.dir}' username='${sf.username}' password='${sf.password}' serverurl='${sf.serverurl}' pollWaitMillis='${sf.pollWaitMillis}' maxPoll='${sf.maxPoll}' />
+    </parallel>
+  </target>
+</project>
