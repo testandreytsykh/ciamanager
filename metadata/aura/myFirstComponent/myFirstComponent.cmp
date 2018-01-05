@@ -1,7 +1,0 @@
-<!--
- - Created by new on 11.10.2017.
- -->
-
-<aura:component description="myFirstComponent" implements="force:appHostable">
-	<p>I am proficient in JavaScript</p>
-</aura:component>

@@ -1,9 +1,0 @@
-<!--
- - Created by new on 18.08.2017.
- -->
-
-<apex:page id="ShowImage">
-	<apex:image alt="eye" title="eye"
-				url="{!URLFOR($Resource.vfimagetest, 'cats/kitten1.jpg')}"/>
-
-</apex:page>
