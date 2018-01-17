@@ -319,6 +319,10 @@
         <name>TopicsForObjects</name>
     </types>
     <types>
+        <members>AssetRelationship</members>
+        <name>Workflow</name>
+    </types>
+    <types>
         <members>Account</members>
         <members>Activities</members>
         <members>Address</members>
